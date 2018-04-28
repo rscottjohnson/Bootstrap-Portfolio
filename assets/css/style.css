@@ -1,12 +1,14 @@
 html {
   height: 100%;
-  margin: 0; /* added to support sticky footer */
+  margin: 0;
+  /* added to support sticky footer */
   font-size: 1rem;
 }
 
 body {
   height: 100%;
-  margin: 0; /* added to support sticky footer */
+  margin: 0;
+  /* added to support sticky footer */
   align-items: center;
   background: url(../images/topography.png);
 }
@@ -17,6 +19,7 @@ body {
 }
 
 /*Top box containing the header and nav items*/
+
 .top {
   width: 100%;
   background-color: #ffffff;
@@ -24,19 +27,30 @@ body {
   float: left;
   clear: right;
   margin-bottom: 30px;
+  padding: 0;
 }
 
 header {
-  margin-left: 10%;
+  margin: 0px 0px 20px 10px;
 }
 
 h1 {
-  color: #4aaaa5;
-  margin: 20px 30px 0px 0px;
-  padding: 0px 0px 10px 0px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  margin-left: 19%;
+  margin-bottom: 0;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
   font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 1.750em; /* changed from 28px */
-  border-bottom: 2px solid #cccccc;
+  font-size: 1.750em;
+  /* changed from 28px */
+  float: left;
+}
+
+nav {
+  margin-right: 27%;
+  margin-top: 25px;
+  float: right;
 }
 
 li {
@@ -95,19 +109,21 @@ section {
 h2 {
   font-family: Georgia, Times, "Times New Roman", serif;
   color: #4aaaa5;
-  font-size: 1.500em; /* changed from 24px */
-  padding: 0px 0px 20px 0px;
-  margin: 30px 20px 20px 20px;
+  font-size: 1.500em;
+  /* changed from 24px */
+  padding: 0px 0px 10px 0px;
+  margin: 20px 20px 20px 5px;
   border-bottom: 2px solid #cccccc;
 }
 
 img.profile {
-  margin: 20px 30px 20px 0px;
+  margin: 0px 30px 20px 0px;
   float: left;
 }
 
 img {
-  display: block; /* image responsive support */  
+  display: block;
+  /* image responsive support */
   margin: 10px 30px 20px 10px;
   float: left;
 }
@@ -117,15 +133,17 @@ p {
   color: #777777;
   line-height: 200%;
   padding: 0px 10px 0px 10px;
-  margin: 10px 20px 10px 0px;
+  margin: 0px 20px 10px 0px;
 }
 
 .push {
-  height: 65px; /* added to support sticky footer */
+  height: 65px;
+  /* added to support sticky footer */
 }
 
 .footer {
-  height: 65px; /* added to support sticky footer */
+  height: 65px;
+  /* added to support sticky footer */
   width: 100%;
   background-color: #666666;
   border-top: 10px solid #4aaaa5;
@@ -147,81 +165,89 @@ p {
   padding: 0;
   margin: 0;
 }
+
 #p-footer {
   background-color: #666666;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #777777;
   text-align: center;
-  font-size: 0.625em; /* changed from 10px */
+  font-size: 0.625em;
+  /* changed from 10px */
   padding: 0px 0px 0px 0px;
 }
 
 /* Portfolio related starts here */
+
 .gallery {
-    position: relative;
-    float: left;
-    width: 274px;
-    margin: 0px 0px 0px 0px;
-    display: inline-block;
-    overflow: auto;
+  position: relative;
+  float: left;
+  width: 274px;
+  margin: 0px 0px 0px 0px;
+  display: inline-block;
+  overflow: auto;
 }
 
 .gallery img {
-    width: 100%;
-    border: 0 none;
-    /*opacity: 0.8;*/
+  width: 100%;
+  border: 0 none;
+  /*opacity: 0.8;*/
 }
-  
+
 .gallery h3 {
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 10;
-    font-weight: 300;
-    line-height: 30px;
-    color: #fff;
-    text-align: center;
-    background: #4aaaa5;
-    border-bottom: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 1.250em; /* changed from 20px */
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10;
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  border-bottom: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.250em;
+  /* changed from 20px */
 }
 
 .img-thumbnail {
   position: relative;
-  display: inline-block; /* image responsive support */
+  display: inline-block;
+  /* image responsive support */
 }
 
 .caption {
   position: absolute;
   top: 65%;
-  left: 10%;
-  width: 88%;
+  left: 3.3%;
+  width: 28%;
   text-align: center;
   color: #ffffff;
   background-color: #4aaaa5;
   padding: 10px 10px 10px 10px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 1.250em; /* changed from 20px */
+  font-size: 1.250em;
+  /* changed from 20px */
 }
 
 .caption-text {
   text-align: center;
-  width: 100%;
+  width: 0%;
   color: #ffffff;
   background-color: #4aaaa5;
   padding: 5px 0px 5px 0px;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 1.250em; /* changed from 20px */
+  font-size: 1.250em;
+  /* changed from 20px */
 }
 
 .row {
-  padding: 0px 0px 0px px;
-  margin: 10px 0px 0px 0px;
+  padding: 0;
+  margin: 0;
 }
 
 /* Contact related starts here */
+
 .form-control {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #777777;
@@ -249,9 +275,17 @@ button[type="submit"] {
   border: none;
   cursor: pointer;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  font-size: 1.000em; /* changed from 16px */
+  font-size: 1.000em;
+  /* changed from 16px */
 }
 
 button[type="submit"]:hover {
   background-color: #4aaaa5;
+}
+
+@media screen and (min-width: 576px) {
+  .caption {
+    left: 10%;
+    width: 88%;
+  }
 }
