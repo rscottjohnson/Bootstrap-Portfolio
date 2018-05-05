@@ -80,6 +80,13 @@ a:hover {
   color: #4aaaa5;
 }
 
+.captionNew a {
+  color: #ffffff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.250em;
+  width: 0%;
+}
+
 section {
   margin-top: 20px;
 }
@@ -225,6 +232,20 @@ p {
   color: #ffffff;
   background-color: #4aaaa5;
   padding: 10px 10px 10px 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.250em;
+  /* changed from 20px */
+}
+
+.captionNew {
+  position: absolute;
+  top: 65%;
+  left: 9%;
+  width: 89%;
+  text-align: center;
+  color: #ffffff;
+  background-color: #4aaaa5;
+  padding: 5px 10px 5px 10px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 1.250em;
   /* changed from 20px */
